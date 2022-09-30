@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Complete Form Validation</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Sign Up Form</h1>
+        <div class="entries">
+            <p>User Name</p>
+            <input type="text" id="username" placeholder="Mohan Kumar"></input>
+            <p class="error-message" id="user-status">Username cannot be blank</p>
+        </div>
+        <div class="entries">
+            <p>Email</p>
+            <input type="email" id="email" placeholder="abcd@gmail.com"></input>
+            <p class="error-message" id="email-status">Email cannot be blank</p>
+        </div>
+        <div class="entries">
+            <p>Password</p>
+            <input type="password" id="password" placeholder="Password here"></input>
+            <p class="error-message" id="pass-status">Password cannot be blank</p>
+        </div>
+        <div class="entries">
+            <p>Confirm Password</p>
+            <input type="password" id="confirm-password" placeholder="Confirm Password here"></input>
+            <p class="error-message" id="confirm-status">Confirm Password cannot be blank</p>
+        </div>
+        <button id="submit">Submit</button>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
